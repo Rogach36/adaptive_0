@@ -207,6 +207,9 @@ body {
 .page__advantages {
 }
 
+.page__practice {
+}
+
 /*----------------------HEADER-BLOCK-------------------------------*/
 .header-block {
 	text-align: center;	
@@ -464,8 +467,6 @@ body {
 		padding: 40px 0px;
 	}
 }
-.advantages__container {
-}
 
 .advantages__header {
 	margin: 0 0 50px 0;
@@ -526,6 +527,68 @@ body {
 	line-height: 150% ;
 	letter-spacing: 0.1px;
 	color: #737373;
+}
+
+/*--------------------PRACTICE--------------------------------*/
+
+.practice {
+}
+.practice__container {
+}
+.practice__header {
+	margin: 0 0 45px 0;
+}
+.header-block {
+}
+.header-block__title {
+}
+.header-block__subtitle {
+}
+.practice__body {
+	margin: 0 -20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.practice__column {
+	padding: 0 20px;
+	flex: 0 1 25%;
+}
+.practice__item {
+	background-color: #fff;
+}
+.item-practice {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.item-practice__content {
+	padding: 30px;
+	flex: 1 1 100%;
+}
+.item-practice__link {
+	color: inherit;
+	display: inline-block;
+}
+.item-practice__link:not(:last-child) {
+	margin: 0 0 15px 0;
+}
+
+.item-practice__title {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.1px;
+}
+
+.item-practice__text {
+	font-size: 14px;
+	line-height: 143% ;
+	letter-spacing: 0.2px;
+	color: #737373;
+}
+.item-practice__image {
+	display: block;
+	padding: 0 0 60% 0;
 }
 
 
