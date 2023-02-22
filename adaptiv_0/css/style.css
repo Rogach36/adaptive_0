@@ -404,7 +404,6 @@ body {
 	}
 }
 
-
 .services__item {
 	padding: 35px;
 	background: #fff;
@@ -532,27 +531,49 @@ body {
 /*--------------------PRACTICE--------------------------------*/
 
 .practice {
+	padding: 60px 0px 80px 0;
 }
-.practice__container {
+
+@media (max-width: 479px) {
+	.practice {
+		padding-bottom: 40px;
+	}	
 }
+
 .practice__header {
 	margin: 0 0 45px 0;
 }
-.header-block {
+
+@media (max-width: 776px) {
+	.practice__header {
+		margin: 0 0 25px 0;
+	}	
 }
-.header-block__title {
-}
-.header-block__subtitle {
-}
+
 .practice__body {
 	margin: 0 -20px;
 	display: flex;
 	flex-wrap: wrap;
+	margin: 0 0 -30px 0;
 }
 .practice__column {
 	padding: 0 20px;
 	flex: 0 1 25%;
+	margin: 0 0 30px 0;
 }
+
+@media (max-width: 1040px) {
+	.practice__column {
+		flex: 0 1 50%;
+	}
+}
+
+@media (max-width: 630px) {
+	.practice__column {
+		flex: 0 1 100%;
+	}
+}
+
 .practice__item {
 	background-color: #fff;
 }
