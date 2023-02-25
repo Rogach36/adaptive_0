@@ -750,8 +750,16 @@ body {
 
 @media (max-width: 776px) {
 	.whoweare {
-		padding: 20px 0 0 0;
+		padding: 20px 0 50px 0;
 	}
+
+	.whoweare__top:not(:last-child)  {
+		margin: 0 0 30px 0;
+	}
+
+	.whoweare__video:not(:last-child) {		
+		margin: 30px 0 0 0;
+	}	
 }
 
 
