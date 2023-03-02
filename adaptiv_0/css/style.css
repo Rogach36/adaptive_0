@@ -1036,13 +1036,23 @@ body {
 }
 
 .contact__body {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	
 }
 .contact__content {
-	padding: 0 0 0 20px;
+	padding: 0 0 20px 0;
 }
+@media (min-width: 768px) {
+	.contact__body {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.contact__content {
+		padding: 0 20px 0 0;
+	}
+}
+
+
 .contact__title {
 	font-weight: 700;
 	font-size: 24px;
